@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.wisesdk.sdkdemojava"
-        minSdk 21
-        targetSdk 30
+        minSdk 22
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -35,7 +35,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 
     // wise sdk
-    implementation "com.wise.sdk:core:1.0.4-SNAPSHOT"
+    implementation "com.wise.sdk:core:1.1.4"
 
     // zoom sdk
     implementation project(path: ':mobilertc')
